@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”">
-      <change afterPath="$PROJECT_DIR$/../人体姿态检测/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../人体姿态检测/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../人体姿态检测/PoseModle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../人体姿态检测/人体姿态检测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../人体姿态检测/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../人体姿态检测/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../手部跟踪/.idea/手部跟踪.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../手部跟踪/.idea/手部跟踪.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/AI虚拟画笔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/images/canva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/手指计数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/手部音量控制.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../手部跟踪/HandTrackingModle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../手部跟踪/HandTrackingModle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +62,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../人体姿态检测/PoseModle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../人体姿态检测/人体姿态检测.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../手部跟踪/AI虚拟画笔.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/HandTrackingModle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../手部跟踪/手指计数.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../手部跟踪/手部音量控制.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -80,7 +88,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master1",
-    "last_opened_file_path": "G:/opencv_py/人体姿态检测/人体姿态检测.py",
+    "last_opened_file_path": "G:/opencv_py/手部跟踪/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +96,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.PoseModle">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\opencv_py\手部跟踪\images" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="手部跟踪" type="PythonConfigurationType" factoryName="Python">
       <module name="手部跟踪" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692067615864</updated>
-      <workItem from="1692067620693" duration="6360000" />
+      <workItem from="1692067620693" duration="18424000" />
     </task>
     <task id="LOCAL-00001" summary="“任意文字”">
       <option name="closed" value="true" />
@@ -210,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692071786623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692074306159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692074306159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,8 +267,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tesseract$HandTrackingModle.coverage" NAME="HandTrackingModle 覆盖结果" MODIFIED="1692073122903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
-    <SUITE FILE_PATH="coverage/Tesseract$PoseModle.coverage" NAME="PoseModle 覆盖结果" MODIFIED="1692074039057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人体姿态检测" />
-    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="人体姿态检测 覆盖结果" MODIFIED="1692072362085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tesseract$PoseModle.coverage" NAME="PoseModle 覆盖结果" MODIFIED="1692076006087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人体姿态检测" />
+    <SUITE FILE_PATH="coverage/Tesseract$AI.coverage" NAME="AI虚拟画笔 覆盖结果" MODIFIED="1692092916103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
+    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="手指计数 覆盖结果" MODIFIED="1692088129857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
     <SUITE FILE_PATH="coverage/Tesseract$main.coverage" NAME="main 覆盖结果" MODIFIED="1692068929891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
   </component>
 </project>
