@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”">
-      <change afterPath="$PROJECT_DIR$/../游戏/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/.idea/游戏.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/在线计算器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../手部跟踪/AI虚拟键盘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../游戏/手部距离测量.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +54,7 @@
     <setting file="file://$PROJECT_DIR$/../人体姿态检测/PoseModle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../人体姿态检测/人体姿态检测.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/AI虚拟画笔.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../手部跟踪/AI虚拟键盘.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/HandTrackingModle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../手部跟踪/手指计数.py" root0="SKIP_INSPECTION" />
@@ -213,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692067615864</updated>
-      <workItem from="1692067620693" duration="29168000" />
+      <workItem from="1692067620693" duration="37174000" />
     </task>
     <task id="LOCAL-00001" summary="“任意文字”">
       <option name="closed" value="true" />
@@ -247,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692098754695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692104108969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692104108969</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,8 +288,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tesseract$PoseModle.coverage" NAME="PoseModle 覆盖结果" MODIFIED="1692076006087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人体姿态检测" />
     <SUITE FILE_PATH="coverage/Tesseract$HandTrackingModle.coverage" NAME="HandTrackingModle 覆盖结果" MODIFIED="1692095193984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
-    <SUITE FILE_PATH="coverage/Tesseract$AI.coverage" NAME="AI虚拟画笔 覆盖结果" MODIFIED="1692095782021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
-    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="在线计算器 覆盖结果" MODIFIED="1692103959377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
+    <SUITE FILE_PATH="coverage/Tesseract$AI.coverage" NAME="AI虚拟键盘 覆盖结果" MODIFIED="1692112786901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
+    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="手部距离测量 覆盖结果" MODIFIED="1692109994683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
     <SUITE FILE_PATH="coverage/Tesseract$main.coverage" NAME="main 覆盖结果" MODIFIED="1692068929891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
   </component>
 </project>
