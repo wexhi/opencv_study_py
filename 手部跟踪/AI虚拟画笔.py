@@ -26,7 +26,7 @@ while True:
 
     # 2. Find Hand Landmarks
     img = detector.findHands(img)
-    lmList = detector.findPosition(img, draw=False)
+    lmList,bbox = detector.findPosition(img, draw=False)
 
     if len(lmList) != 0:
         # tip of index and middle fingers
@@ -37,8 +37,8 @@ while True:
         fingers = detector.fingersUp()
         # print(fingers)
 
-        # 4. If Selection Mode - Two finger are up
-        if fingers[1] and fingers[2]:
+        # 4. If Selection Mode - five finger are up
+        if fingers[0] and fingers[1] and fingers[2] and fingers[3] and fingers[4]:
             xp, yp = 0, 0
             cv2.rectangle(img, (x1, y1 - 25), (x2, y2 + 25),
                           drawColor, cv2.FILLED)

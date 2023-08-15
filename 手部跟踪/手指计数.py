@@ -27,7 +27,7 @@ tipIds = [4, 8, 12, 16, 20]  # 指尖的id
 while True:
     success, img = cap.read() # 读取视频
     img = detector.findHands(img) # shape: 480, 640, 3
-    lmList = detector.findPosition(img, draw=False)
+    lmList,bbox = detector.findPosition(img, draw=False)
     # print(lmList)
     if len(lmList) != 0:
         fingers = []
