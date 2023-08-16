@@ -1,0 +1,2 @@
+G:\opencv_py\游戏\obj\x86\Debug\UDP.csproj.AssemblyReference.cache
+G:\opencv_py\游戏\obj\x86\Debug\UDP.csproj.CoreCompileInputs.cache

@@ -1,0 +1,76 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0F98B7C2-78DF-412F-980F-5BB76DEACCC5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>UDP</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".idea\inspectionProfiles\profiles_settings.xml" />
+    <Content Include=".idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include=".idea\modules.xml" />
+    <Content Include=".idea\workspace.xml" />
+    <Content Include="3D球跟踪.py" />
+    <Content Include="Images\Donut.png" />
+    <Content Include="在线计算器.py" />
+    <Content Include="手部距离测量.py" />
+    <Content Include="贪吃蛇.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UDPReceive.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\游戏.iml" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\UDPReceive.cs\v17\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include=".vs\游戏\FileContentIndex\c4783f49-8421-40bd-8724-1f97ffeb9a57.vsidx" />
+    <None Include=".vs\游戏\FileContentIndex\read.lock" />
+    <None Include=".vs\游戏\v17\.wsuo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\UDP\v17\" />
+    <Folder Include=".vs\游戏\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
