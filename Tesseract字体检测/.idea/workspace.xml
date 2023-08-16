@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”" />
+    <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”">
+      <change afterPath="$PROJECT_DIR$/../游戏/3D球跟踪.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,39 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master1" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="8d128924bd92a88a1dca7f8c1a5f6be075a300aa" />
@@ -97,7 +133,7 @@
       <recent name="G:\opencv_py\手部跟踪\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.手部跟踪">
+  <component name="RunManager">
     <configuration name="手部跟踪" type="PythonConfigurationType" factoryName="Python">
       <module name="手部跟踪" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +247,7 @@
       <workItem from="1692067620693" duration="37661000" />
       <workItem from="1692150238361" duration="634000" />
       <workItem from="1692150889765" duration="18351000" />
+      <workItem from="1692193338560" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="“任意文字”">
       <option name="closed" value="true" />
@@ -292,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692164183546</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692193445061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692193445061</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +375,8 @@
     <SUITE FILE_PATH="coverage/Tesseract$PoseModle.coverage" NAME="PoseModle 覆盖结果" MODIFIED="1692076006087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人体姿态检测" />
     <SUITE FILE_PATH="coverage/Tesseract$HandTrackingModle.coverage" NAME="HandTrackingModle 覆盖结果" MODIFIED="1692095193984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
     <SUITE FILE_PATH="coverage/Tesseract$AI.coverage" NAME="AI虚拟键盘 覆盖结果" MODIFIED="1692112786901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
-    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="贪吃蛇 覆盖结果" MODIFIED="1692190479709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
+    <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="手部跟踪 覆盖结果" MODIFIED="1692194236184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tesseract$main.coverage" NAME="main 覆盖结果" MODIFIED="1692068929891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
+    <SUITE FILE_PATH="coverage/Tesseract$3D.coverage" NAME="3D球跟踪 覆盖结果" MODIFIED="1692196011010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
   </component>
 </project>
