@@ -4,6 +4,7 @@ import numpy as np
 confThreshold = 0.5
 nnsThreshold = 0.3
 
+
 def findObjects(outputs, img):
     hT, wT, cT = img.shape
     bbox = []
@@ -31,7 +32,6 @@ def findObjects(outputs, img):
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 255), 2)
         cv2.putText(img, f"{class_names[class_ids[i]].upper()} {int(confidences[i] * 100)}%",
                     (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
-        
 
 
 cap = cv2.VideoCapture(0)

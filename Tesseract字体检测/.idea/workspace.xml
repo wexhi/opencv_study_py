@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”">
-      <change afterPath="$PROJECT_DIR$/../游戏/presentation/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/presentation/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/presentation/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/presentation/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/presentation/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../游戏/手势控制演示.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/Images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/Images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/Images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/YOLO_Weights/yolov8l.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/YOLO_Weights/yolov8n.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/yolo_webcam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yolo/yolov_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolo/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolo/yolo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +141,7 @@
       <recent name="G:\opencv_py\手部跟踪\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\opencv_py\yolo\YOLO_Weights" />
       <recent name="G:\opencv_py\游戏\Imagese" />
     </key>
   </component>
@@ -256,7 +260,7 @@
       <workItem from="1692150238361" duration="634000" />
       <workItem from="1692150889765" duration="18351000" />
       <workItem from="1692193338560" duration="3800000" />
-      <workItem from="1692239089131" duration="6849000" />
+      <workItem from="1692239089131" duration="12047000" />
     </task>
     <task id="LOCAL-00001" summary="“任意文字”">
       <option name="closed" value="true" />
@@ -354,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692198030561</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692246296909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692246296909</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +406,8 @@
     <SUITE FILE_PATH="coverage/Tesseract$AI.coverage" NAME="AI虚拟键盘 覆盖结果" MODIFIED="1692112786901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
     <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="手势控制演示 覆盖结果" MODIFIED="1692246162617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
     <SUITE FILE_PATH="coverage/Tesseract$main.coverage" NAME="main 覆盖结果" MODIFIED="1692068929891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
+    <SUITE FILE_PATH="coverage/Tesseract$yolov8.coverage" NAME="yolov8 覆盖结果" MODIFIED="1692263927825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
     <SUITE FILE_PATH="coverage/Tesseract$3D.coverage" NAME="3D球跟踪 覆盖结果" MODIFIED="1692196011010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
+    <SUITE FILE_PATH="coverage/Tesseract$yolo_webcam.coverage" NAME="yolo_webcam 覆盖结果" MODIFIED="1692265743150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
   </component>
 </project>
