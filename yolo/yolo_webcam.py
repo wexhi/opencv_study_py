@@ -2,13 +2,21 @@ from ultralytics import YOLO
 import cv2
 import cvzone
 import math
+import torch
+#查看版本
+print(torch.__version__)
+#查看gpu是否可用
+gpuAvailable = torch.cuda.is_available()
+#返回设备gpu个数
+gpu = torch.cuda.get_device_name()
+
 
 # cap = cv2.VideoCapture(0)  # For Webcam
 # cap.set(3, 1280)
 # cap.set(4, 720)
-cap = cv2.VideoCapture("../Videos/motorbikes.mp4")  # For Video
+cap = cv2.VideoCapture("Videos/cars.mp4")  # For Video
 
-module = YOLO("YOLO_Weights/yolov8n.pt")
+module = YOLO("YOLO_Weights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",

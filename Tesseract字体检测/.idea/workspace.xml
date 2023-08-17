@@ -5,27 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b407b162-34c5-4db8-9fb6-ac4bc7f35fd3" name="更改" comment="“任意文字”">
-      <change afterPath="$PROJECT_DIR$/../yolo/Images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/Images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/Images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/YOLO_Weights/yolov8l.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/YOLO_Weights/yolov8n.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/yolo_webcam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yolo/yolov_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yolo/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolo/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolo/yolo_webcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolo/yolo_webcam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -118,24 +124,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/opencv_py/手部跟踪/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master1",
+    "last_opened_file_path": "G:/opencv_py/手部跟踪/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\opencv_py\手部跟踪\images" />
@@ -145,7 +151,7 @@
       <recent name="G:\opencv_py\游戏\Imagese" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.yolo_webcam">
     <configuration name="手部跟踪" type="PythonConfigurationType" factoryName="Python">
       <module name="手部跟踪" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,13 +242,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yolo_webcam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yolo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../yolo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../yolo/yolo_webcam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.手部跟踪" />
+      <item itemvalue="Python.yolo_webcam" />
       <item itemvalue="Python.PoseModle" />
       <item itemvalue="Python.HandTrackingModle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yolo_webcam" />
         <item itemvalue="Python.PoseModle" />
         <item itemvalue="Python.HandTrackingModle" />
       </list>
@@ -260,7 +290,7 @@
       <workItem from="1692150238361" duration="634000" />
       <workItem from="1692150889765" duration="18351000" />
       <workItem from="1692193338560" duration="3800000" />
-      <workItem from="1692239089131" duration="12047000" />
+      <workItem from="1692239089131" duration="16147000" />
     </task>
     <task id="LOCAL-00001" summary="“任意文字”">
       <option name="closed" value="true" />
@@ -366,8 +396,27 @@
       <option name="project" value="LOCAL" />
       <updated>1692246296909</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692265947131</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692265947131</updated>
+    </task>
+    <task id="LOCAL-00015" summary="“任意文字”">
+      <option name="closed" value="true" />
+      <created>1692266043236</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692266043236</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="G:\opencv_py" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -407,7 +456,8 @@
     <SUITE FILE_PATH="coverage/Tesseract$.coverage" NAME="手势控制演示 覆盖结果" MODIFIED="1692246162617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
     <SUITE FILE_PATH="coverage/Tesseract$main.coverage" NAME="main 覆盖结果" MODIFIED="1692068929891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../手部跟踪" />
     <SUITE FILE_PATH="coverage/Tesseract$yolov8.coverage" NAME="yolov8 覆盖结果" MODIFIED="1692263927825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
+    <SUITE FILE_PATH="coverage/Tesseract$Yolo_Webcam.coverage" NAME="Yolo-Webcam 覆盖结果" MODIFIED="1692266493906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
     <SUITE FILE_PATH="coverage/Tesseract$3D.coverage" NAME="3D球跟踪 覆盖结果" MODIFIED="1692196011010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../游戏" />
-    <SUITE FILE_PATH="coverage/Tesseract$yolo_webcam.coverage" NAME="yolo_webcam 覆盖结果" MODIFIED="1692265743150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
+    <SUITE FILE_PATH="coverage/Tesseract$yolo_webcam.coverage" NAME="yolo_webcam 覆盖结果" MODIFIED="1692270846392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolo" />
   </component>
 </project>
