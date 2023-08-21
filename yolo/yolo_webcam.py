@@ -7,8 +7,10 @@ import torch
 print(torch.__version__)
 #查看gpu是否可用
 gpuAvailable = torch.cuda.is_available()
+print(gpuAvailable)
 #返回设备gpu个数
 gpu = torch.cuda.get_device_name()
+print(gpu)
 
 
 # cap = cv2.VideoCapture(0)  # For Webcam
