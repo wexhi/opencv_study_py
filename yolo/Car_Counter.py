@@ -19,7 +19,7 @@ print(gpu)
 # cap.set(3, 1280)
 # cap.set(4, 720)
 cap = cv2.VideoCapture("Videos/cars.mp4")  # For Video
-mask = cv2.imread("Images/mask.png")
+mask = cv2.imread("Images/mask_car.png")
 
 # Tracking
 tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)
