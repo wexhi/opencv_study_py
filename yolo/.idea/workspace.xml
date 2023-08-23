@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d19c2ad-3a86-472c-bf0d-dc8991a7536c" name="更改" comment="1">
-      <change afterPath="$PROJECT_DIR$/Images/mask_people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../人脸检测/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car_Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Car_Counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/mask_car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yolo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yolo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/People_Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/People_Counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap/lap/_lapjv.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/lap/lap/_lapjv.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap/lap/lapmod.py" beforeDir="false" afterPath="$PROJECT_DIR$/lap/lap/lapmod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../人脸检测/人脸检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/../人脸检测/人脸检测.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Cat_Counter.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/sort.py" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: -1
@@ -52,7 +54,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -64,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master1",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/wexhi/Desktop/study/python/opencv_study_py/yolo/Images",
+    "last_opened_file_path": "C:/Users/wexhi/Desktop/study/python/opencv_study_py/游戏",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wexhi\Desktop\study\python\opencv_study_py\人脸检测" />
       <recent name="C:\Users\wexhi\Desktop\study\python\opencv_study_py\yolo\Images" />
       <recent name="C:\Users\wexhi\Desktop\study\python\opencv_study_py\yolo" />
     </key>
@@ -95,7 +100,8 @@
       <workItem from="1692634400298" duration="341000" />
       <workItem from="1692634755481" duration="1154000" />
       <workItem from="1692635939501" duration="259000" />
-      <workItem from="1692692419883" duration="5296000" />
+      <workItem from="1692692419883" duration="5839000" />
+      <workItem from="1692781897624" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -113,11 +119,30 @@
       <option name="project" value="LOCAL" />
       <updated>1692723595888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1692724560012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692724560012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="“任意文字”" />
@@ -126,7 +151,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yolo_webcam_py$yolo_webcam.coverage" NAME="yolo_webcam 覆盖结果" MODIFIED="1692600840904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yolo_webcam_py$People_Counter.coverage" NAME="People_Counter 覆盖结果" MODIFIED="1692724333445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolo_webcam_py$.coverage" NAME="人脸检测 覆盖结果" MODIFIED="1692783804075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人脸检测" />
+    <SUITE FILE_PATH="coverage/yolo_webcam_py$People_Counter.coverage" NAME="People_Counter 覆盖结果" MODIFIED="1692795958510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolo_webcam_py$ImagesAttendance.coverage" NAME="ImagesAttendance 覆盖结果" MODIFIED="1692783877136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../人脸检测" />
     <SUITE FILE_PATH="coverage/yolo_webcam_py$sort.coverage" NAME="sort 覆盖结果" MODIFIED="1692692940320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolo_webcam_py$Cat_Counter.coverage" NAME="Cat_Counter 覆盖结果" MODIFIED="1692718703296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

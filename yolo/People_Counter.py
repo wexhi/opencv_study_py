@@ -109,4 +109,7 @@ while True:
 
     cv2.imshow("Image", img)
     # cv2.imshow("Image Region", imgRegion)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        break
+

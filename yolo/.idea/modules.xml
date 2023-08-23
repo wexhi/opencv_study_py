@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/yolo.iml" filepath="$PROJECT_DIR$/.idea/yolo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../人体姿态检测/.idea/人体姿态检测.iml" filepath="$PROJECT_DIR$/../人体姿态检测/.idea/人体姿态检测.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../实时物体尺寸测量/.idea/人脸检测.iml" filepath="$PROJECT_DIR$/../实时物体尺寸测量/.idea/人脸检测.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../游戏/.idea/游戏.iml" filepath="$PROJECT_DIR$/../游戏/.idea/游戏.iml" />
     </modules>
   </component>
 </project>
